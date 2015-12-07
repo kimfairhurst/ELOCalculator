@@ -181,9 +181,9 @@ public class Main {
 					
 			for(int i = 0; i < finalRanking.size(); i ++){
 				if(i != finalRanking.size() - 1){
-					outputLine = outputLine + finalRanking.get(i) + " ";
+					outputLine = outputLine + (finalRanking.get(i) + 1) + " ";
 				} else {
-					outputLine = outputLine + finalRanking.get(i);
+					outputLine = outputLine + (finalRanking.get(i) + 1);
 				}
 			}
 			
